@@ -3,7 +3,7 @@ key: soloio
 title: Solo.io
 category: collaborators
 order: 3
-logo: /images/partners/collaborators/soloio.webp
+logo: /images/partners/collaborators/soloio.jpg
 website: 'https://www.solo.io/'
 lang: en
 why: >-

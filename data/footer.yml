@@ -25,6 +25,8 @@ content:
 
   - title: footer_previous_edition
     links:
+      - name: KCD Barcelona 2024
+        url: https://community.cncf.io/events/details/cncf-kcd-spain-presents-kcd-barcelona-2024/
       - name: KCD Spain 2023
         url: https://2023.kcdspain.com/
       - name: KCD Spain 2022
