@@ -113,3 +113,29 @@
       name: Github
     - link: https://community.cncf.io/u/m5mhc6/
       name: CNCF
+
+- title: Joan Miquel Luque
+  company: Dynatrace
+  type: event_coordination
+  subtitle: Senior Platform Engineer
+  key: joan_luque
+  socials:
+    - link: https://www.linkedin.com/in/joanluque/
+      name: LinkedIn
+    - link: https://github.com/xoanmi
+      name: Github
+    - link: https://community.cncf.io/u/mj6j5y
+      name: CNCF
+
+- title: Joan Miquel Luque
+  company: Dynatrace
+  type: content
+  subtitle: Senior Platform Engineer
+  key: joan_luque
+  socials:
+    - link: https://www.linkedin.com/in/joanluque/
+      name: LinkedIn
+    - link: https://github.com/xoanmi
+      name: Github
+    - link: https://community.cncf.io/u/mj6j5y
+      name: CNCF
