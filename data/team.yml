@@ -139,3 +139,26 @@
       name: Github
     - link: https://community.cncf.io/u/mj6j5y
       name: CNCF
+
+
+- title: Pablo Chacin
+  company: Grafana Labs
+  type: content
+  subtitle: Staff Software Engineer
+  key: pablo_chacin
+  socials:
+    - link: https://www.linkedin.com/in/pablochacin/
+      name: LinkedIn
+    - link: http://github.com/pablochacin
+      name: Github
+
+- title: Pablo Chacin
+  company: Grafana Labs
+  type: mark
+  subtitle: Staff Software Engineer
+  key: pablo_chacin
+  socials:
+    - link: https://www.linkedin.com/in/pablochacin/
+      name: LinkedIn
+    - link: http://github.com/pablochacin
+      name: Github
