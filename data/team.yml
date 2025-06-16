@@ -154,11 +154,33 @@
 
 - title: Pablo Chacin
   company: Grafana Labs
-  type: mark
+  type: marketing
   subtitle: Staff Software Engineer
   key: pablo_chacin
   socials:
     - link: https://www.linkedin.com/in/pablochacin/
       name: LinkedIn
     - link: http://github.com/pablochacin
+      name: Github
+
+- title: José Ángel de Bustos Pérez
+  company: Red Hat
+  type: marketing
+  subtitle: Senior Specialist Solution Architect
+  key: bustos
+  socials:
+    - link: https://www.linkedin.com/in/jadebustos/
+      name: LinkedIn
+    - link: https://github.com/jadebustos/
+      name: Github
+
+- title: José Ángel de Bustos Pérez
+  company: Red Hat
+  type: event_coordination
+  subtitle: Senior Specialist Solution Architect
+  key: bustos
+  socials:
+    - link: https://www.linkedin.com/in/jadebustos/
+      name: LinkedIn
+    - link: https://github.com/jadebustos/
       name: Github
