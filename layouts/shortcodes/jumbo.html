@@ -3,8 +3,8 @@
 {{ $imgLabel := .Get "imgLabel" }}
 {{ $logo := .Site.Params.logos.jumbo }}
 {{ $cfpUrl := .Site.Params.cfpUrl }}
-{{ $submitCFP := .Get "submitCFP" }}
-{{ $joinEvent := .Get "joinEvent" }}
+{{ $submitCFP := .Site.Params.submitCFP }}
+{{ $joinEvent := .Site.Params.joinEvent }}
 <div class="jumbo">
 	<div class="jumbo-cover" style="background-image: url('{{ .Get "img" }}')" {{ if $imgLabel }}aria-label="{{ $imgLabel }}"{{ end }}></div>
 <!--
@@ -20,17 +20,18 @@
 			<!-- Remove event_subtitle in favor of a better layout on the home page
 			<h3 id="event_subtitle">{{ i18n "event_subtitle" }}</h3>
                         -->
-			{{ if eq $submitCFP "yes" }}
+			<!-- This is not used in favor of a simpler block -->
+			<!-- {{ if eq $submitCFP "true" }}
 			<a class="btn btn-xlg tertiary" href="{{ $cfpUrl }}">
 			    <svg class="icon icon-cfp"><use xlink:href="#cfp"></use></svg>{{ i18n "submit_presentation" }}
 			</a>
 			{{ end }}
-			{{ if eq $joinEvent "yes" }}
+			{{ if eq $joinEvent "true" }}
 			<a href="{{ .Site.Params.joinUrl }}"
 			   class="btn btn-xlg tertiary" rel="noopener noreferrer" target="_blank">
 				{{ i18n "join_action" }}
 			</a>
-			{{ end }}
+			{{ end }} -->
 		</div>
 	</div>
 

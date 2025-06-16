@@ -18,7 +18,7 @@ menu:
 ## Featured Speakers
 
 {{< button-link label="Submit a presentation"
-                url="https://go.cloudnativos.es/cfp"
+                url="https://sessionize.com/cloudnativos-2025/"
                 icon="cfp" >}}
 
 {{< button-link label="See all speakers"
