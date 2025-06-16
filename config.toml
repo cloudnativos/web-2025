@@ -12,7 +12,7 @@ enableMissingTranslationPlaceholders = true
 
 [params]
     title = "#3 Virtual Kubernetes Community Days"
-    date = "December 12th and 13th, 2025"
+    date = "October 28th and 29th, 2025"
     description = "Forma parte de la primera comunidad de hispanohablantes de Kubernetes. Descubre un evento de tres días en español lleno de experiencias, empresas emergentes y personas a las que les gusta tanto la tecnología como a ti."
     images = ["/images/featured/cloudnativos-featured-01.png"]
     email = " hello@cloudnativos.es"

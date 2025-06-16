@@ -84,7 +84,7 @@ other = "Join Cloud Nativos Spain. Don’t miss everything that is about to come
 other = "Submit a presentation"
 
 [date_of_event]
-other = "December 12th and 13th, 2025"
+other = "October 28th and 29th, 2025"
 
 [partners_header]
 other = "Partners"
@@ -92,7 +92,7 @@ other = "Partners"
 [event_subtitle]
 other = "#3 Virtual Cloud Nativos Spain"
 
-[what_is_cloudnatios]
+[what_is_cloudnativos]
 other = "**Cloud Native Days** are community-organized events that gather adopters and technologists from open source and cloud native communities for education, collaboration, and networking. Cloud Native Days are supported by the [Cloud Native Computing Foundation](https://cncf.io/) (CNCF). These fun, locally-defined events help grow and sustain the Kubernetes community."
 
 [cfp_extension]
