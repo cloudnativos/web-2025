@@ -1,6 +1,7 @@
 baseURL = "https://cloudnativos.es/"
-languageCode = "en-gb"
+languageCode = "es"
 title = "Cloud Native Days Spain 2025"
+defaultContentLanguage = "es"
 
 # Theme
 theme = "devfest-theme-hugo"
@@ -35,12 +36,12 @@ enableMissingTranslationPlaceholders = true
     footer = "/images/logos/cloudnativos-logo-white.png"
 
 [menu]
-[[menu.main]]
-    identifier = "schedule"
-    name = "menu_main_schedule"
-    url = "https://agenda.cloudnativos.es/" # TODO
-    weight = 200
-    external = true
+#[[menu.main]]
+#    identifier = "schedule"
+#    name = "menu_main_schedule"
+#    url = "https://agenda.cloudnativos.es/" # TODO
+#    weight = 200
+#    external = true
 [[menu.main]]
     identifier = "cfp"
     name = "CFP"
@@ -50,12 +51,12 @@ enableMissingTranslationPlaceholders = true
 
 [languages]
 [languages.en]
-    weight = 1
+    weight = 2
     languageName = "gb"
     languageCode = "en"
 
 [languages.es]
-    weight = 2
+    weight = 1
     languageName = "es"
     languageCode = "es"
 
