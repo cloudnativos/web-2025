@@ -18,7 +18,7 @@ enableMissingTranslationPlaceholders = true
     email = " hello@cloudnativos.es"
     keywords = "event, cloudnative, spain, kubernetes, google, cloud"
     copyright = "Organized with ❤️  by Cloud Nativos Spain."
-    cfpUrl = "https://go.cloudnativos.es/cfp" # TODO
+    cfpUrl = "https://sessionize.com/cloudnativos-2025/"
     joinURL = "https://community.cncf.io/events/details/cloudnativos-spain-presents-cloudnativos-spain-2025/" # TODO
     appleTouchIcon = "/apple-icon.png"
     favicon32 = "/images/logos/favicon-32x32.ico"
@@ -26,6 +26,8 @@ enableMissingTranslationPlaceholders = true
     manifest = "/manifest.json"
     safariPinnedTab = "/safari-pinned-tab.svg"
     themeColor = "#0000ff"
+    submitCFP = "true"
+    joinEvent = "false"
 
 [params.logos]
     jumbo = "/images/logos/cloudnativos-logo-white.png"
@@ -39,12 +41,12 @@ enableMissingTranslationPlaceholders = true
     url = "https://agenda.cloudnativos.es/" # TODO
     weight = 200
     external = true
-# [[menu.main]]
-#     identifier = "cfp"
-#     name = "CFP"
-#     url = "https://go.cloudnativos.es/cfp" # TODO
-#     weight = 190
-#     external = true
+[[menu.main]]
+    identifier = "cfp"
+    name = "CFP"
+    url = "https://sessionize.com/cloudnativos-2025/"
+    weight = 190
+    external = true
 
 [languages]
 [languages.en]
