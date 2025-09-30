@@ -6,7 +6,7 @@ To develop, you need first time to go to #buid stage (only one tieme) and then j
 
 ```bash
 docker run -it --rm --name cn2025 \
-  -v $(pwd)/:/root/cn/ \
+  -v $(pwd)/:/app \
   -p 1313:1313 \
   cn:2025
 ```

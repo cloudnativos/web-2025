@@ -3,8 +3,8 @@ publish = "public"
 command = "make production-build"
 
 [build.environment]
-HUGO_VERSION = "0.101.0"
-NODE_VERSION = "18.9.0"
+HUGO_VERSION = "0.147.0"
+NODE_VERSION = "20"
 
 [context.production.environment]
 HUGO_BASEURL = "https://cloudnativos.es/"
