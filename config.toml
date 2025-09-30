@@ -36,12 +36,6 @@ enableMissingTranslationPlaceholders = true
     footer = "/images/logos/cloudnativos-logo-white.png"
 
 [menu]
-#[[menu.main]]
-#    identifier = "schedule"
-#    name = "menu_main_schedule"
-#    url = "https://agenda.cloudnativos.es/" # TODO
-#    weight = 200
-#    external = true
 [[menu.main]]
     identifier = "cfp"
     name = "CFP"
