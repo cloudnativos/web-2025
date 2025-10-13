@@ -184,3 +184,16 @@
       name: LinkedIn
     - link: https://github.com/jadebustos/
       name: Github
+
+- title: Jorge Turrado Ferrero
+  company: SCRM Lidl International Hub
+  type: multimedia
+  subtitle: Principal Site Reliability Engineer
+  key: jorge_turrado
+  socials:
+    - link: https://www.linkedin.com/in/jorge-turrado-ferrero/
+      name: LinkedIn
+    - link: https://github.com/JorTurFer
+      name: Github
+    - link: https://community.cncf.io/u/m8553h
+      name: CNCF
