@@ -15,12 +15,12 @@ enableMissingTranslationPlaceholders = true
     title = "#3 Virtual Kubernetes Community Days"
     date = "October 28th and 29th, 2025"
     description = "Forma parte de la primera comunidad de hispanohablantes de Kubernetes. Descubre un evento de tres días en español lleno de experiencias, empresas emergentes y personas a las que les gusta tanto la tecnología como a ti."
-    images = ["/images/featured/cloudnativos-featured-01.png"]
+    images = ["/images/featured/cloudnativos-featured-02.png"]
     email = " hello@cloudnativos.es"
     keywords = "event, cloudnative, spain, kubernetes, google, cloud"
     copyright = "Organized with ❤️  by Cloud Nativos Spain."
     cfpUrl = "https://sessionize.com/cloudnativos-2025/"
-    joinURL = "https://community.cncf.io/events/details/cloudnativos-spain-presents-cloudnativos-spain-2025/" # TODO
+    joinURL = "https://tickets.cloudnativos.es" 
     appleTouchIcon = "/apple-icon.png"
     favicon32 = "/images/logos/favicon-32x32.ico"
     favicon16 = "/images/logos/favicon-16x16.ico"
@@ -46,6 +46,12 @@ enableMissingTranslationPlaceholders = true
 #    identifier = "cfp"
 #    name = "CFP"
 #    url = "https://sessionize.com/cloudnativos-2025/"
+#    weight = 190
+#    external = true
+#[[menu.main]]
+#    identifier = "tickets"
+#    name = "Tickets"
+#    url = "https://tickets.cloudnativos.es/"
 #    weight = 190
 #    external = true
 

@@ -10,7 +10,7 @@ other = "Switch to"
 ########
 
 [home_tickets_action]
-other = "Comprar Entrada"
+other = "Entradas"
 
 [home_tickets_soldout]
 other = "Entradas agotadas"
@@ -103,3 +103,6 @@ other = "Agenda"
 
 [CFP]
 other = "CFP"
+
+[Tickets]
+other = "Entradas"
