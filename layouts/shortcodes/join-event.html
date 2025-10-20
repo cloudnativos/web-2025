@@ -6,18 +6,47 @@
 	<div class="inner">
 		<h2 id="join_call_to_action">{{ i18n "join_call_to_action" }}</h2>
         </div>
-	{{ if eq $joinEvent "true" }}
+	<!-- {{ if eq $joinEvent "true" }}
 	<a href="{{ .Site.Params.joinUrl }}"
 	   class="btn btn-xlg tertiary" rel="noopener noreferrer" target="_blank">
-		<!-- {{ partial "icon.html" "subscribe" }} -->
-		{{ i18n "join_action" }}
+		 {{ partial "icon.html" "subscribe" }}
+		{{ i18n "join_action" }}aaaaaaaaaa
 	</a>
-	{{ end }}
-	{{ if eq $submitCFP "true" }}
-	<a href="{{ .Site.Params.cfpUrl }}"
-	   class="btn btn-xlg tertiary" rel="noopener noreferrer" target="_blank">
-		<!-- {{ partial "icon.html" "subscribe" }} -->
-		{{ i18n "submit_presentation" }}
-	</a>
+	{{ end }} -->
+	 {{ if eq $joinEvent "true" }} <!--Bloque hardcodeado para CloudNative 2025. -->
+	 <!--
+	 Cloud Native Days Spain Track 1 - Day 1 -> https://www.youtube.com/watch?v=j18J20Q1s5I
+	 Cloud Native Days Spain Track 2 - Day 1 -> https://www.youtube.com/watch?v=fel8AbeB2b8
+	
+	 Cloud Native Days Spain Track 1 - Day 2 -> https://www.youtube.com/watch?v=XxZF7i40Lvc
+	 Cloud Native Days Spain Track 2 - Day 2 -> https://www.youtube.com/watch?v=6u8CjnmEcCE
+	 -->
+	<div class="inner">
+		<h2>Day 1</h2>
+		
+			<a href="https://www.youtube.com/watch?v=j18J20Q1s5I"
+				class="btn btn-xlg tertiary" rel="noopener noreferrer" target="_blank">
+				{{ partial "icon.html" "subscribe" }}
+				Track 1
+			</a>
+			<a href="https://www.youtube.com/watch?v=fel8AbeB2b8"
+				class="btn btn-xlg tertiary" rel="noopener noreferrer" target="_blank">
+				{{ partial "icon.html" "subscribe" }}
+				Track 2
+			</a>
+	</div>
+	<div class="inner">
+		<h2>Day 2</h2>
+			<a href="https://www.youtube.com/watch?v=XxZF7i40Lvc"
+				class="btn btn-xlg tertiary" rel="noopener noreferrer" target="_blank">
+				{{ partial "icon.html" "subscribe" }}
+				Track 1
+			</a>
+			<a href="https://www.youtube.com/watch?v=6u8CjnmEcCE"
+				class="btn btn-xlg tertiary" rel="noopener noreferrer" target="_blank">
+				{{ partial "icon.html" "subscribe" }}
+				Track 2
+			</a>
+	</div>
 	{{ end }}
 </section>
