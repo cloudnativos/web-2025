@@ -36,12 +36,24 @@ enableMissingTranslationPlaceholders = true
     footer = "/images/logos/cloudnativos-logo-white.png"
 
 [menu]
-[[menu.main]]
-    identifier = "tickets"
-    name = "Tickets"
-    url = "https://tickets.cloudnativos.es/"
-    weight = 190
-    external = true
+#[[menu.main]]
+#    identifier = "schedule"
+#    name = "menu_main_schedule"
+#    url = "https://agenda.cloudnativos.es/" # TODO
+#    weight = 200
+#    external = true
+#[[menu.main]]
+#    identifier = "cfp"
+#    name = "CFP"
+#    url = "https://sessionize.com/cloudnativos-2025/"
+#    weight = 190
+#    external = true
+#[[menu.main]]
+#    identifier = "tickets"
+#    name = "Tickets"
+#    url = "https://tickets.cloudnativos.es/"
+#    weight = 190
+#    external = true
 
 [languages]
 [languages.en]
